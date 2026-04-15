@@ -1,4 +1,4 @@
-**DESIGN BRIEF**
+ **DESIGN BRIEF**
 
 *Project MiniClaw — Trade Show Promotional Gripper*
 

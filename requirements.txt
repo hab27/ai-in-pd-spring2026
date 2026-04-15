@@ -4,3 +4,8 @@ matplotlib
 scikit-learn
 torch
 jupyter
+tiktoken
+chromadb
+openai
+sentence-transformers
+python-dotenv
