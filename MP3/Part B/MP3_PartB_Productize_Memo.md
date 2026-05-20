@@ -1,0 +1,53 @@
+| Key | Value |
+
+|-----|-------|
+
+| To: | Engineering Team |
+
+| From: | Jordan Chen, Engineering Manager, Gripper Systems Division |
+
+| Date: | May 4, 2026 |
+
+| Re: | MiniClaw — Productizing Your Work for the Team |
+
+| Priority: | High |
+
+
+
+MEMORANDUM
+
+Your MP2 deliverable was useful. The PRD landed, the research synthesis caught the FilaTech adhesion data Maria had been worried about, and the context package gave me what I needed to greenlight the gear topology you proposed. We're moving forward.
+
+But here's the situation. Maria Santos in the fab shop has questions about MiniClaw every day. Two new junior engineers start next week, both assigned to MiniClaw and a follow-on gripper variant. They don't have your context package. They don't know which questions to ask. They don't have your judgment about when to consult the brief vs. when to just iterate.
+
+I need your engineering work to outlive your laptop.
+
+What I want from you
+
+I want you to productize what you've built so any engineer on this project — Maria, the new juniors, the next person who picks up this product line in three years — can have the same centaur engineering experience you've had. Specifically:
+
+Productize your retrieval. What you built in MP2 lives in your notebook. I need it accessible from any AI tool the team is using. When a junior fires up Copilot in VS Code and types “what's the print-shop tolerance on press fits for MiniClaw?”, the AI should automatically consult our project knowledge and answer correctly. They shouldn't need to know the corpus exists or how to query it.
+
+Codify your judgment. Write down a workflow pattern you've developed — what to check on a gear design, when to pull from BigClaw reference, what DFM constraints matter for our print shop. Pick the one that's been most useful to you and turn it into a reusable artifact. Format it so an AI session can apply it without you being there. Industry calls these “skills” right now; the format will keep evolving but the idea is durable.
+
+Prove it works on real CAD. Pick a subassembly — gear train, jaw arms, the housing, doesn't matter which. Spend a few hours iterating it in whatever CAD tool you prefer (SolidWorks, Fusion, OpenSCAD — your call). Use your productized stack alongside you. Document a couple of checkpoints where you stopped, sent the AI a screenshot with your skill loaded, and got a review. I want to see what the AI caught, what it missed, and what you changed.
+
+Two practical realities to plan around
+
+First, the team is on GitHub Copilot. If your stack only works with one specific tool you happen to like, it's not productized — it's a personal setup. Use whatever AI host you want for development, but document what it would take to get it running on Copilot agent mode if that's not what you used.
+
+Second, evidence matters. We're going to review this work. I want to see logs that prove the AI called your tools, screenshots that show it happening in context, and conversations exported as documentation. “It worked on my machine” is not a deliverable.
+
+Looking ahead
+
+Next sprint we'll run a real design iteration loop on top of this stack — your team partners up, picks a subassembly, and runs it through to a print-ready CAD package. The work you productize this sprint is what makes that possible. Don't over-engineer this. A simple, working stack that you can explain end-to-end is worth more than a sprawling system that confuses everyone.
+
+Questions, hit me on Slack.
+
+— Jordan
+
+Jordan Chen
+
+Engineering Manager, Gripper Systems Division
+
+ACME Robotics
