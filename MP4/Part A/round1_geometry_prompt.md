@@ -1,0 +1,1 @@
+Round 1 evidence: asked for a four-bar geometry that could reach about 20 mm single-side displacement while remaining inside the 40-140 degree transmission-angle band. Context came from the MP4 Part A notebook Section 3 and Section 4 requirements.
